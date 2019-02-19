@@ -5,7 +5,7 @@ using RestEase;
 
 namespace NytApiClient
 {
-    public interface INytApiClient : TimeswireApiClient
+    public interface INytApiClient : ITimeswireApiClient, ITopStoriesClient
     {
     }
 }

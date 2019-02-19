@@ -5,7 +5,7 @@ using RestEase;
 
 namespace NytApiClient
 {
-    public interface TimeswireApiClient
+    public interface ITimeswireApiClient
     {
         [Query("api-key")]
         string ApiKey { get; set; }
