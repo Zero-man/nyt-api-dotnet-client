@@ -5,11 +5,12 @@ using RestEase;
 
 namespace NytApiClient
 {
-    public interface INytApiClient : 
+    public interface INytApiClient :
     ITimeswireClient,
     ITopStoriesClient,
     ITagsClient,
-    IArchiveClient
+    IArchiveClient,
+    IBooksClient
     {
         [Query("api-key")]
         new string ApiKey { get; set; }
