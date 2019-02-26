@@ -10,7 +10,8 @@ namespace NytApiClient
     ITopStoriesClient,
     ITagsClient,
     IArchiveClient,
-    IBooksClient
+    IBooksClient,
+    ISemanticClient
     {
         [Query("api-key")]
         new string ApiKey { get; set; }
