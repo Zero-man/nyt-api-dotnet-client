@@ -11,7 +11,8 @@ namespace NytApiClient
     ITagsClient,
     IArchiveClient,
     IBooksClient,
-    ISemanticClient
+    ISemanticClient,
+    IMovieReviews
     {
         [Query("api-key")]
         new string ApiKey { get; set; }

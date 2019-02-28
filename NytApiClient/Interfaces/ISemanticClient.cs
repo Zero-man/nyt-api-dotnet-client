@@ -20,7 +20,7 @@ namespace NytApiClient
         [Get("/svc/semantic/v2/concept/search.json")]
         Task<SearchResponse> Search(
             string query,
-            string offset,
+            int offset,
             string fields);
     }
 }
